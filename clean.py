@@ -1,7 +1,7 @@
 import os , shutil
 
 userPath = os.path.expanduser("~")
-paths = [userPath + "/AppData/Local/Temp", "C:/Windows/Prefetch", userPath + "/temp"]
+paths = [userPath + "/AppData/Local/Temp", "C:/Windows/Prefetch", userPath + "/temp", "C:/WINDOWS/SoftwareDistribution/Download"]
 
 for path in paths:
     try:
